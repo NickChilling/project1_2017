@@ -11,10 +11,10 @@ from tweepy import Stream
 from tweepy.streaming import StreamListener
 
 def scrapy_twitter():
-    consumer_key = "kk7WDgeUo9AOdWvapFp8Q3Voq"
-    consumer_secret = 'eEq55etVAuM1mVR1QUlSWtOJQl97z4MN7208twob0O7rjQQUiO'
-    access_token = '826748905794654208-iEn3gO8mkkVqbp7l0rhjZOoTtttTFeP'
-    access_secret = 'H1swbi7KdYUZFo0VTJk6dFreqKP0iT1jmk7ar1L1oCWqF'
+    consumer_key = ""
+    consumer_secret = ''
+    access_token = ''
+    access_secret = ''
     auth = OAuthHandler(consumer_key,consumer_secret)
     auth.set_access_token(access_token,access_secret)
 
